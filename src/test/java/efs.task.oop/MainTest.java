@@ -27,10 +27,10 @@ public class MainTest {
                 "I will identify items for you at no charge.");
         assertThat(systemOutRule.getLog()).contains("Greetings traveler... I'm Warriv and I'm 35 years old");
         assertThat(systemOutRule.getLog()).contains("Greetings traveler... I'm Flawia and I'm 25 years old");
-        assertThat(systemOutRule.getLog()).contains("Potwory posiadaja jeszcze");
-        assertThat(systemOutRule.getLog()).contains("Aktualnie walczacy osadnik to");
+        assertThat(systemOutRule.getLog()).contains("Potwory posiadają jeszcze");
+        assertThat(systemOutRule.getLog()).contains("Aktualnie walczący osadnik to");
         assertThat(systemOutRule.getLog()).contains("Obozowisko ocalone!");
-        assertThat(systemOutRule.getLog()).contains("Potwory posiadaja jeszcze ");
-        assertThat(systemOutRule.getLog()).contains("Aktualnie walczacy osadnik to ");
+        assertThat(systemOutRule.getLog()).contains("Potwory posiadają jeszcze ");
+        assertThat(systemOutRule.getLog()).contains("Aktualnie walczący osadnik to ");
     }
 }
