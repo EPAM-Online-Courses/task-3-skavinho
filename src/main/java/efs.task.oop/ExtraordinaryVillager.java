@@ -34,7 +34,7 @@ public class ExtraordinaryVillager extends Villager implements Fighter{
 
     @Override
     public void takeHit(int damage) {
-        setHealth(getHealth());
+        this.health = 0;
 
     }
 
