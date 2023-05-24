@@ -21,7 +21,7 @@ public class Main {
         while (Monsters.monstersHealth > 0) {
             for (Villager villager : villagers) {
                 if (villager.getHealth() > 0) {
-                    System.out.println("Aktualnie walczący osadnik to " + villager.getName());
+                    System.out.println("Aktualnie walczacy osadnik to " + villager.getName());
                     villager.attack(Monsters.andariel);
                     villager.attack(Monsters.blacksmith);
                 }
@@ -45,7 +45,7 @@ public class Main {
                 Monsters.blacksmith.attack(flawia);
             }
 
-            System.out.println("Potwory posiadają jeszcze " + Monsters.monstersHealth + " punkty(-ów) życia.");
+            System.out.println("Potwory posiadaja jeszcze " + Monsters.monstersHealth + " punkty(-ów) życia.");
         }
 
         System.out.println("Obozowisko ocalone!");
@@ -56,8 +56,5 @@ public class Main {
         // Wywołanie metody klasy ExtraordinaryVillager
         deckardCain.sayHello();
         akara.sayHello();
-
-
-
     }
 }
